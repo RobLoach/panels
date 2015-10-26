@@ -5,6 +5,7 @@
  */
 
 (function ($) {
+  Drupal.Panels = Drupal.Panels || {};
   Drupal.Panels.Layout = {};
   Drupal.Panels.Layout.autoAttach = function() {
     $('div.form-item div.layout-icon').click(function() {
